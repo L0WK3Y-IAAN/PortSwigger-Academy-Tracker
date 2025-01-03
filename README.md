@@ -48,7 +48,7 @@ Before you begin, ensure you have met the following requirements:
 
 1. Clone the Repository
    ```bash
-   git clone https://github.com/yourusername/portswigger-academy-tracker.git
+   git clone https://github.com/L0WK3Y-IAAN/portswigger-academy-tracker.git
    cd portswigger-academy-tracker
    ```
 
