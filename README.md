@@ -1,3 +1,5 @@
+![PortSwigger Progress](https://i.imgur.com/kdZjayp.jpeg)
+
 # PortSwigger Academy Tracker
 
 ## Table of Contents
