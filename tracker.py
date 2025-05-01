@@ -255,6 +255,7 @@ class PortSwiggerTracker:
         self.save_progress()
         with open(self.output_file, 'w') as f:
             f.write(table)
+        print("✅ Markdown table successfully written to README.md")
         
         return table
 
@@ -331,6 +332,7 @@ def main():
     
     if args.update:
         tracker.update_progress_table()
+        print("✅ Update complete. Check README.md for updated progress.")
     elif args.schedule:
         schedule_updates()
     else:

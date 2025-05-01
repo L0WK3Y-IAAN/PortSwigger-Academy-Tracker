@@ -76,36 +76,20 @@ class PortSwiggerCookieManager:
             return False
 
     def parse_cookie_input(self):
-        """Parse manual cookie input"""
-        print("\nEnter your PortSwigger cookies:")
-        print("Required cookies: Authenticated_UserVerificationId, SessionId, t")
-        print("Enter each cookie one at a time in 'name=value' format (press Enter twice when done):")
-        
-        cookies = {}
-        while True:
-            line = input().strip()
-            if not line:
-                break
-                
-            try:
-                name, value = line.split('=', 1)
-                cookies[name.strip()] = value.strip()
-            except ValueError:
-                print("Invalid format. Use 'name=value'")
+        """Prompt user to paste each required cookie value individually"""
+        print("\nPaste the required PortSwigger cookies when prompted.")
 
-        # Validate that all required cookies are present
-        required_cookies = ['SessionId', 't']
-        authenticated_cookie = next((c for c in cookies.keys() if c.startswith('Authenticated')), None)
-        
-        if not authenticated_cookie:
-            print("Missing Authenticated_UserVerificationId cookie!")
-            return None
-            
-        missing = [c for c in required_cookies if c not in cookies]
-        if missing:
-            print(f"Missing required cookies: {', '.join(missing)}")
-            return None
-            
+        # Required cookies
+        required_cookies = ['Authenticated_UserVerificationId', 'SessionId', 't']
+        cookies = {}
+
+        for cookie_name in required_cookies:
+            value = input(f"Enter your {cookie_name}: ").strip()
+            if not value:
+                print(f"{cookie_name} is required.")
+                return None
+            cookies[cookie_name] = value
+
         return cookies
 
 def main():

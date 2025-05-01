@@ -1,0 +1,174 @@
+{
+  "topics": {
+    "SQL injection": {
+      "total_labs": 18,
+      "completed": 5,
+      "last_updated": "2025-05-01T16:32:56.993134"
+    },
+    "Authentication": {
+      "total_labs": 14,
+      "completed": 7,
+      "last_updated": "2025-05-01T16:32:56.994426"
+    },
+    "Path traversal": {
+      "total_labs": 6,
+      "completed": 5,
+      "last_updated": "2025-05-01T16:32:56.995439"
+    },
+    "Command injection": {
+      "total_labs": 5,
+      "completed": 2,
+      "last_updated": "2025-05-01T16:32:56.996381"
+    },
+    "Business logic vulnerabilities": {
+      "total_labs": 11,
+      "completed": 0,
+      "last_updated": "2025-05-01T16:32:56.997823"
+    },
+    "Information disclosure": {
+      "total_labs": 5,
+      "completed": 5,
+      "last_updated": "2025-05-01T16:32:56.999131"
+    },
+    "Access control": {
+      "total_labs": 13,
+      "completed": 10,
+      "last_updated": "2025-05-01T16:32:57.000255"
+    },
+    "File upload vulnerabilities": {
+      "total_labs": 7,
+      "completed": 0,
+      "last_updated": "2025-05-01T16:32:57.001671"
+    },
+    "Race conditions": {
+      "total_labs": 6,
+      "completed": 3,
+      "last_updated": "2025-05-01T16:32:57.003221"
+    },
+    "Server-side request forgery (SSRF)": {
+      "total_labs": 7,
+      "completed": 2,
+      "last_updated": "2025-05-01T16:32:57.003999"
+    },
+    "XXE injection": {
+      "total_labs": 9,
+      "completed": 3,
+      "last_updated": "2025-05-01T16:32:57.004767"
+    },
+    "NoSQL injection": {
+      "total_labs": 4,
+      "completed": 1,
+      "last_updated": "2025-05-01T16:32:57.006327"
+    },
+    "API testing": {
+      "total_labs": 5,
+      "completed": 2,
+      "last_updated": "2025-05-01T16:32:57.007903"
+    },
+    "Web cache deception": {
+      "total_labs": 5,
+      "completed": 0,
+      "last_updated": "2025-05-01T16:32:57.009686"
+    },
+    "Cross-site scripting (XSS)": {
+      "total_labs": 30,
+      "completed": 13,
+      "last_updated": "2025-05-01T16:32:57.010712"
+    },
+    "Cross-site request forgery (CSRF)": {
+      "total_labs": 12,
+      "completed": 2,
+      "last_updated": "2025-05-01T16:32:57.011351"
+    },
+    "Cross-origin resource sharing (CORS)": {
+      "total_labs": 3,
+      "completed": 0,
+      "last_updated": "2025-05-01T16:32:57.011987"
+    },
+    "Clickjacking": {
+      "total_labs": 5,
+      "completed": 0,
+      "last_updated": "2025-05-01T16:32:57.012591"
+    },
+    "DOM-based vulnerabilities": {
+      "total_labs": 7,
+      "completed": 1,
+      "last_updated": "2025-05-01T16:32:57.013246"
+    },
+    "WebSockets": {
+      "total_labs": 3,
+      "completed": 1,
+      "last_updated": "2025-05-01T16:32:57.014243"
+    },
+    "Insecure deserialization": {
+      "total_labs": 10,
+      "completed": 0,
+      "last_updated": "2025-05-01T16:32:57.015701"
+    },
+    "Web LLM attacks": {
+      "total_labs": 4,
+      "completed": 0,
+      "last_updated": "2025-05-01T16:32:57.017192"
+    },
+    "GraphQL API vulnerabilities": {
+      "total_labs": 5,
+      "completed": 0,
+      "last_updated": "2025-05-01T16:32:57.018577"
+    },
+    "Server-side template injection": {
+      "total_labs": 7,
+      "completed": 1,
+      "last_updated": "2025-05-01T16:32:57.019437"
+    },
+    "Web cache poisoning": {
+      "total_labs": 13,
+      "completed": 0,
+      "last_updated": "2025-05-01T16:32:57.020556"
+    },
+    "HTTP Host header attacks": {
+      "total_labs": 7,
+      "completed": 0,
+      "last_updated": "2025-05-01T16:32:57.021769"
+    },
+    "HTTP request smuggling": {
+      "total_labs": 21,
+      "completed": 0,
+      "last_updated": "2025-05-01T16:32:57.022678"
+    },
+    "OAuth authentication": {
+      "total_labs": 6,
+      "completed": 0,
+      "last_updated": "2025-05-01T16:32:57.023913"
+    },
+    "JWT attacks": {
+      "total_labs": 8,
+      "completed": 3,
+      "last_updated": "2025-05-01T16:32:57.025221"
+    },
+    "Prototype pollution": {
+      "total_labs": 10,
+      "completed": 0,
+      "last_updated": "2025-05-01T16:32:57.026584"
+    },
+    "Essential skills": {
+      "total_labs": 2,
+      "completed": 0,
+      "last_updated": "2025-05-01T16:32:57.027832"
+    }
+  },
+  "level_progress": {
+    "apprentice": {
+      "completed": 37,
+      "total": 59
+    },
+    "practitioner": {
+      "completed": 29,
+      "total": 171
+    },
+    "expert": {
+      "completed": 0,
+      "total": 39
+    }
+  },
+  "last_updated": "05/01/25"
+}
